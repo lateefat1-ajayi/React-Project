@@ -28,14 +28,13 @@ export const FilterProvider = ({children}) => {
     }
 
     const sort = (products) => {
-        if (state.sortBy === "lowToHigh") {
+        if (state.sortBy === "lowtohigh") {
             return products.sort((a, b) => Number(a.price) - Number(b.price))
         }
-        if (state. sortBy === "HighToLow"){
+        if (state.sortBy === "hightolow"){
             return products.sort((a,b)=> Number(b.price) - Number(a.price))
         }
-
-        return products
+        return products;
     }
 
     const inStock = (products) => {
@@ -44,16 +43,16 @@ export const FilterProvider = ({children}) => {
 
     const ratings = (products) => {
         if (state.ratings === "4STARSABOVE"){
-            return products.filter(product => product.ratings >=4)
+            return products.filter(product => product.rating >=4)
         }
         if (state.ratings === "3STARSABOVE"){
-            return products.filter(product => product.ratings >=3)
+            return products.filter(product => product.rating >=3)
         }
         if (state.ratings === "2STARSABOVE"){
-            return products.filter(product => product.ratings >=2)
+            return products.filter(product => product.rating >=2)
         }
         if (state.ratings === "1STARABOVE"){
-            return products.filter(product => product.ratings >=1)
+            return products.filter(product => product.rating >=1)
         }
 
         return products

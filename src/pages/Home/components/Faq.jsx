@@ -5,22 +5,22 @@ export const Faq = () => {
         {
           "id": 1,
           "question": "Why should I use CodeBook?",
-          "answer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus earum dicta nesciunt, nulla alias consequuntur cumque incidunt saepe mollitia esse! Magni praesentium delectus excepturi nostrum illo repellendus cum eius neque, aperiam dolores quaerat quis dolore magnam doloremque minus sint nemo qui necessitatibus at. Perspiciatis, corrupti cum labore quos odio porro!"
+          "answer": "CodeBook is a valuable tool for securely storing and organizing sensitive information like passwords, personal notes, or code snippets. It offers strong AES encryption, cross-platform support, and customizable data fields. Whether you're managing login credentials or maintaining a personal coding knowledge base, CodeBook helps keep your information safe, accessible, and well-organized—all in one place."
         },
         {
           "id": 2,
           "question": "Can I access my eBook on mobile?",
-          "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusamus nobis tempore perferendis qui, quam, atque reprehenderit vero quaerat, assumenda pariatur eveniet. Maxime eaque, neque corrupti ad minus repudiandae consectetur!"
+          "answer": "Yes, you can access your eBook on a mobile device using apps like Kindle, Google Play Books, or Apple Books. Just download the eBook in a compatible format (such as PDF or EPUB) and open it with your preferred reading app. Many platforms also allow cloud syncing, so you can read across multiple devices seamlessly."
         },
         {
           "id": 3,
           "question": "Do you offer refunds?",
-          "answer": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse iste dolor deserunt expedita quam fugit et inventore amet pariatur. Animi."
+          "answer": "Yes, we offer refunds in accordance with our return policy. If you're not satisfied with your purchase, you can request a refund within the specified return period. Please ensure the item is unused and in its original condition. For more details, check our Refund & Returns section in the app."
         },
         {
           "id": 4,
           "question": "Do you support Internation payments?",
-          "answer": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse iste dolor deserunt expedita quam fugit et inventore amet pariatur. Animi."
+          "answer": "Yes, we support international payments. You can shop from anywhere using globally accepted payment methods like credit/debit cards, PayPal, and more. Currency conversion is handled automatically at checkout."
         }
     ];
     
